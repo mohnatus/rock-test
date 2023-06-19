@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <template id="song-template">
+    <div class="song">
+      <div class="song-lines"></div>
+      <div class="song-actions">
+        <button type="button" class="song-next">Next line</button>
+      </div>
+    </div>
+  </template>
+
+  <template id="answer-template">
+    <div class="answer">
+      <div class="answer-name"></div>
+      <div class="answer-singer"></div>
+      <div class="answer-album"></div>
+      <div class="answer-year"></div>
+      <iframe class="answer-media"></iframe>
+    </div>
+  </template>
+
+
+  <div id="app">
+    <div id="question" class="question">
+      <div id="song"></div>
+      <div id="answer"></div>
+      <div class="question-actions">
+        <button type="button" id="show-answer">SHOW ANSWER</button>
+        <button type="button" id="next-question">NEXT QUESTION</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
